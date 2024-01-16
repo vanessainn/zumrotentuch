@@ -1,0 +1,38 @@
+/**
+* 1. Klassisches Seitenlayout (begrenzte breite, zentriert)
+*/
+
+html { background-color: whitesmoke; }
+body {
+  background-color: white;
+  color: black;
+  min-width: 320px;
+  max-width: 600px;
+  margin: 0.25rem auto;
+}
+
+/**
+* 2. Kopfbereich (inklusive Inhalte)
+*/
+
+.site-header {
+  padding: 1rem 1rem 0 1rem;
+  margin-bottom: 1rem;
+
+  & h1 {
+    margin-bottom: 0;
+  }
+  
+  & p {
+    margin-top: 0;
+  }
+  
+}
+
+/**
+* 3. Hauptbereich
+*/
+
+/**
+* 4. Footer
+*/
