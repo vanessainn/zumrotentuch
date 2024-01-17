@@ -61,11 +61,11 @@
                         <h2>Unsere nächsten Märkte</h2>
                     </div>
                     <div class="col-md-6 d-flex">
-                        <i>Icon</i>
+                        <i class="me-2"><img src="images/symbol.png" alt="Symbol" width="18px"></i></i>
                         <p>3. März 2024 - 05. März 2024 in Hameln</p>
                     </div>
                     <div class="col-md-6 d-flex">
-                        <i>Icon</i>
+                    <i class="me-2"><img src="images/symbol.png" alt="Symbol" width="18px"></i></i>
                         <p>25. März 2024 - 26. März 2024 in Gloggnitz</p>
                     </div>   
                 </div>

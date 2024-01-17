@@ -1,3 +1,8 @@
+:root {
+    --primary: #395144;
+    --white: #FCFCFC;
+}
+
 @font-face {
     font-family: 'Morris Roman';
     src: url(fonts/morris-roman.black-webfont.woff) format(woff)
@@ -35,17 +40,22 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Morris Roman';
 }
 
-button {
-    font-family: 'Morris Roman';
-}
-
 .nav-link {
     font-family: 'Morris Roman';
     color: black;
 }
 
 body {
+    background-color: var(--white);
     font-family: 'Roboto';
     font-weight: 300;
     line-height: 1.5em;
+}
+
+button {
+    font-family: 'Morris Roman';
+    background-color: var(--primary);
+    color: var(--white);
+    border: none;
+    padding: .5rem 1.5rem;
 }
