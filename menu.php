@@ -1,7 +1,7 @@
 <nav class="container-fluid navbar navbar-expand-lg justify-content-between mb-5 sticky-top">
     <div class="container-fluid">
         <a class="navbar-brand" href="index.php">
-            <img src="images/logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top"></a>
+            <img src="images/logo.jpg" alt="Logo" width="100" class="d-inline-block align-text-top"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
