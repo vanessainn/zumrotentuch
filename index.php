@@ -9,22 +9,7 @@
 <body>
 
     <header>
-        <nav>
-            <ul>
-                <li class="nav-link">
-                    <a href="ueberuns.html">Über Uns</a>
-                </li>
-                <li class="nav-link">
-                    <a href="marktkalender.html">Marktkalender</a>
-                </li>
-                <li class="nav-link">
-                    <a href="produkte.html">Produkte</a>
-                </li>
-                <li class="nav-link">
-                    <a href="kontakt.html">Kontakt</a>
-                </li>
-            </ul>
-        </nav>
+       <?php include 'menu.php'; ?>
     </header>
     <main>
 

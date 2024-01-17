@@ -8,7 +8,7 @@
 </head>
 <body>
 
-    <nav></nav>
+    <?php include 'menu.php'; ?>    
 
     <main>
         <section id="kontakt">

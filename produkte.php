@@ -8,8 +8,8 @@
 </head>
 <body>
 
-    <nav></nav>
-    
+    <?php include 'menu.php'; ?>    
+
     <main>
         <section id="allgemein">
             <div class="container">
