@@ -75,12 +75,7 @@
 
     </main>
 
-    <footer>
-        <ul>
-            <li><a href="impressum.html">Impressum</a></li>
-            <li><a href="datenschutz.html">Datenschutz</a></li>
-        </ul>
-    </footer>
+    <?php include 'footer.php'; ?>
 
     <script src="js/bootstrap.min.js"></script>
     

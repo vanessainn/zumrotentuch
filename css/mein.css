@@ -59,3 +59,12 @@ button {
     border: none;
     padding: .5rem 1.5rem;
 }
+
+footer {
+    background-color: var(--primary);
+}
+
+.icon {
+    color: var(--white);
+    min-width: 20px;
+}
