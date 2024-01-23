@@ -68,3 +68,14 @@ footer {
     color: var(--white);
     min-width: 20px;
 }
+
+footer li {
+    list-style-type: none;
+}
+
+footer li a {
+    color: var(--white);
+    text-decoration: none;
+    font-family: 'Morris Roman';
+    font-size: 1.2em;
+}
