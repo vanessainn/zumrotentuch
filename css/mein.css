@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-link {
     font-family: 'Morris Roman';
-    color: black;
+    color: var(--white);
 }
 
 body {
@@ -50,6 +50,11 @@ body {
     font-family: 'Roboto';
     font-weight: 300;
     line-height: 1.5em;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 button {
@@ -78,4 +83,10 @@ footer li a {
     text-decoration: none;
     font-family: 'Morris Roman';
     font-size: 1.2em;
+}
+
+header {
+    background-image: url("../images/header.jpg");
+    background-size: cover;
+    height: 85vh;
 }

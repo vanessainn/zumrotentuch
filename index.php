@@ -10,7 +10,7 @@
 </head>
 <body>
 
-    <header>
+    <header class="mb-4">
        <?php include 'menu.php'; ?>
     </header>
     <main>
