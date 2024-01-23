@@ -15,13 +15,13 @@
     </header>
     <main>
 
-        <section id="info">
+        <section id="info" class="mb-5">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <h1>Zum Roten Tuch</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, quos quisquam. Quasi, consequatur dolorem hic nesciunt exercitationem ea autem quisquam ex, facere eligendi similique odit, dignissimos esse dolore est quas architecto? Pariatur distinctio at quisquam rerum perferendis, iusto molestiae ut quidem quaerat sapiente dolorum excepturi, recusandae consequuntur nulla error sed tempore accusamus, quod molestias unde voluptatum modi porro amet repellendus. Incidunt odit dignissimos, at illo quod expedita sed cum repellat voluptatum, soluta voluptates hic obcaecati asperiores veniam id accusantium aliquam maiores nisi excepturi. Eos, incidunt ipsa nemo neque sed, est adipisci dignissimos libero nobis, optio minus assumenda minima amet molestiae!</p>
-                        <button>erfahre mehr über uns</button>
+                        <div class="text-center"><button>erfahre mehr über uns</button></div>
                     </div>
                 </div>
             </div>
@@ -30,25 +30,25 @@
         <section id="gallerie">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
-                        <img src="" alt="Bild1">
+                    <div class="col-md-4 px-0">
+                        <img src="images/Atelier.jpg" alt="Atelier" class="img-fluid">
                     </div>
-                    <div class="col-md-4">
-                        <img src="" alt="Bild2">
+                    <div class="col-md-4 px-0">
+                        <img src="images/Stoffe.jpg" alt="Stoffe" class="img-fluid">
                     </div>
-                    <div class="col-md-4">
-                        <img src="" alt="Bild3">
+                    <div class="col-md-4 px-0">
+                        <img src="images/Atelier.jpg" alt="Atelier" class="img-fluid">
                     </div>
-                    <div class="col-md-4">
-                        <img src="" alt="Bild4">
+                    <div class="col-md-4 px-0">
+                        <img src="images/Stoffe.jpg" alt="Stoffe" class="img-fluid">
                     </div>
-                    <div class="col-md-4">
-                        <img src="" alt="Bild5">
+                    <div class="col-md-4 px-0">
+                        <img src="images/Atelier.jpg" alt="Atelier" class="img-fluid">
                     </div>
-                    <div class="col-md-4">
-                        <img src="" alt="Bild6">
+                    <div class="col-md-4 px-0">
+                        <img src="images/Stoffe.jpg" alt="Stoffe" class="img-fluid">
                     </div>
-                    <div class="col-md-12">
+                    <div class="col-md-12 mt-2">
                         <p>einige Eindrücke unserer Mittelaltermärkte</p>
                     </div>
                 </div>
@@ -70,7 +70,7 @@
                         <p>25. März 2024 - 26. März 2024 in Gloggnitz</p>
                     </div>   
                 </div>
-                <button>sieh dir alle Termine an</button>
+                <div class="text-center"><button>sieh dir alle Termine an</button></div>
             </div>
         </section>
 
