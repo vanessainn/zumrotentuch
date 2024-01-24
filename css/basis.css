@@ -10,60 +10,57 @@ wird in style.css per @import eingebunden
 */
 
 :root {
-  /* https://www.fluid-type-scale.com/calculate?minFontSize=16&minWidth=400&minRatio=1.25&maxFontSize=20&maxWidth=1280&maxRatio=1.333&steps=300%2C400%2C500%2C600%2C700%2C800%2C900&baseStep=400&prefix=fs&decimals=2&useRems=on&remValue=16&previewFont=Inter&previewText=Almost+before+we+knew+it%2C+we+had+left+the+ground&previewWidth=1280 */
-  --fs-300: clamp(1rem, 0.45vw + 0.89rem, 1.25rem);
-  --fs-400: clamp(1.25rem, 0.76vw + 1.06rem, 1.67rem);
-  --fs-500: clamp(1.56rem, 1.2vw + 1.26rem, 2.22rem);
-  --fs-600: clamp(1.95rem, 1.83vw + 1.5rem, 2.96rem);
-  --fs-700: clamp(2.44rem, 2.74vw + 1.76rem, 3.95rem);
-  --fs-800: clamp(3.05rem, 4.02vw + 2.05rem, 5.26rem);
-  --fs-900: clamp(3.81rem, 5.81vw + 2.36rem, 7.01rem);
+  --primary: #395144;
+  --white: #FCFCFC;
+  --black: #000000;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+@font-face {
+  font-family: 'Morris Roman';
+  src: url(fonts/morris-roman.black-webfont.woff) format(woff)
+       url(fonts/morris-roman.black-webfont.woff2) format(woff2);
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* roboto-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/roboto-v30-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/roboto-v30-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 html { scroll-behavior: smooth; }
-
-img,
-video {
-  max-width: 100%;
-  height: auto;
-}
-
-figure,
-blockquote {
-  margin-right: 0;
-  margin-left: 0;
-}
-
-h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote { margin-top: 0; }
 
 /**
 * 2. Grundlegende gestaltung von Schrift und Text
 */
 
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: var(--white);
+  font-family: 'Roboto';
+  font-weight: 300;
+  line-height: 1.5em;
 }
 
-h1 { font-size: var(--fs-900); font-weight: 500; }
-h2 { font-size: var(--fs-800); font-weight: 500; }
-h3 { font-size: var(--fs-700); font-weight: 500; }
-h4 { font-size: var(--fs-600); font-weight: 500; }
-h5 { font-size: var(--fs-500); font-weight: 500; }
-h6 { font-size: var(--fs-400); font-weight: 500; }
-a {
-  text-decoration-thickness: 1px;
-  text-underline-offset: 0.2em;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Morris Roman';
 }
-address { font-style: normal; }
-
-/**
-* 3. Nützliche und allgemeine Klassen
-*/
-
-.hidden { display: none; }

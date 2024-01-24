@@ -2,6 +2,23 @@
 * Button
 */
 
+button {
+    font-family: 'Morris Roman';
+    background-color: var(--primary);
+    color: var(--white);
+    border: none;
+    padding: .5rem 1.5rem;
+}
+
+/** 
+* Icon
+*/
+
+.icon {
+    color: var(--white);
+    min-width: 20px;
+}
+
 /**
 * Timeline für Schneidereiprozess
 */

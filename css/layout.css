@@ -2,31 +2,19 @@
 * 1. Klassisches Seitenlayout (begrenzte breite, zentriert)
 */
 
-html { background-color: whitesmoke; }
-body {
-  background-color: white;
-  color: black;
-  min-width: 320px;
-  max-width: 600px;
-  margin: 0.25rem auto;
+main {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 /**
 * 2. Kopfbereich (inklusive Inhalte)
 */
 
-.site-header {
-  padding: 1rem 1rem 0 1rem;
-  margin-bottom: 1rem;
-
-  & h1 {
-    margin-bottom: 0;
-  }
-  
-  & p {
-    margin-top: 0;
-  }
-  
+header {
+  background-image: url("../images/header.jpg");
+  background-size: cover;
+  height: 85vh;
 }
 
 /**
@@ -48,3 +36,34 @@ body {
 /**
 * 4. Footer
 */
+
+footer {
+  background-color: var(--primary);
+}
+
+footer li {
+  list-style-type: none;
+}
+
+footer li:after {
+  content: "";
+  width: 0%;
+  height: 1px;
+  display: block;
+  transition: all 0.3s ease;
+  bottom: 25%;
+  background-color: var(--white);
+}
+
+footer li a {
+  color: var(--white);
+  text-decoration: none;
+  font-family: 'Morris Roman';
+  font-size: 1.2em;
+}
+
+footer li:hover::after {
+  width: 100%;
+  height: 1px;
+  background-color: var(--white);
+}
