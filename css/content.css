@@ -23,6 +23,18 @@ button {
 * Timeline für Schneidereiprozess
 */
 
+.vr {
+    position: relative;
+}
+
+.timeline {
+    position: absolute;
+}
+
+.schritte {
+    height: 4rem;
+}
+
 /**
 * Kontaktformular
 */
