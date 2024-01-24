@@ -10,12 +10,12 @@
 </head>
 <body>
 
-    <header class="mb-4">
+    <header>
        <?php include 'menu.php'; ?>
     </header>
     <main>
 
-        <section id="info" class="mb-5">
+        <section id="info" class="my-5">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -55,7 +55,7 @@
             </div>
         </section>
 
-        <section id="karte">
+        <section id="karte" class="my-4">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -79,6 +79,7 @@
     <?php include 'footer.php'; ?>
 
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
     
 </body>
 </html>
