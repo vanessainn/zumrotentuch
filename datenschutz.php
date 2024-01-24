@@ -43,7 +43,7 @@
         </section>
     </main>
 
-    <footer></footer>
+    <?php include 'footer.php'; ?>
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
