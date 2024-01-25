@@ -36,5 +36,50 @@ button {
 }
 
 /**
+* Marktkalender
+*/
+
+.month {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.calendar {
+    position: absolute;
+    margin-left: -1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.verticaltext {
+    width: 1px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 767px) {
+    .month {
+        justify-content: left;
+    }
+    .calendar {
+        flex-direction: row;
+        margin-left: 0;
+    }
+    .verticaltext {
+        word-wrap: normal;
+    }
+    .vr {
+        display: none;
+    }
+    .infos {
+        justify-content: space-between;
+        margin-right: 1rem;
+    }
+}
+
+/**
 * Kontaktformular
 */
