@@ -10,16 +10,15 @@
     <?php include 'menu1.php'; ?>
     
     <main>
-        <section id="kartedetail"></section>
+        <section id="kartedetail" class ="mb-5 px-1">
+          <?php include 'map.php'; ?>
+        </section>
         <section id="kalender">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <h1>Marktkalender</h1>
                     </div>
-
-                  
-
                     <div class="month col-md-1 mt-5">
                         <div class="vr line" style="height: 100%"></div>
                         <div class="calendar">
@@ -142,7 +141,7 @@
                                 <p>19. Mai 2024 - 20. Mai 2024</p>
                             </div>
                             <div class="col-md-5 text-end">
-                                <p>Kainburg</p>
+                                <p>Hainburg</p>
                             </div>
                         </div>
                         <h5>Wikingerfest</h5>
