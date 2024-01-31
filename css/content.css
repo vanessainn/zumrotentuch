@@ -10,7 +10,7 @@ button {
     padding: .5rem 1.5rem;
 }
 
-button:hover {
+.btn_normal:hover {
     background-color: var(--secondary);
     color: var(--black);
 }

@@ -18,7 +18,7 @@
                     <div class="col-md-12">
                         <h1>Zum Roten Tuch</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, quos quisquam. Quasi, consequatur dolorem hic nesciunt exercitationem ea autem quisquam ex, facere eligendi similique odit, dignissimos esse dolore est quas architecto? Pariatur distinctio at quisquam rerum perferendis, iusto molestiae ut quidem quaerat sapiente dolorum excepturi, recusandae consequuntur nulla error sed tempore accusamus, quod molestias unde voluptatum modi porro amet repellendus. Incidunt odit dignissimos, at illo quod expedita sed cum repellat voluptatum, soluta voluptates hic obcaecati asperiores veniam id accusantium aliquam maiores nisi excepturi. Eos, incidunt ipsa nemo neque sed, est adipisci dignissimos libero nobis, optio minus assumenda minima amet molestiae!</p>
-                        <div class="text-center"><button>erfahre mehr über uns</button></div>
+                        <div class="text-center"><button class="btn_normal">erfahre mehr über uns</button></div>
                     </div>
                 </div>
             </div>
@@ -72,7 +72,7 @@
         <section id="kartedetail" class ="mb-5 px-1">
             <?php include 'map.php'; ?>
             <?php include 'dialog.php'; ?>
-            <div class="text-center mt-3"><button>sieh dir alle Termine an</button></div>
+            <div class="text-center mt-3"><button class="btn_normal">sieh dir alle Termine an</button></div>
         </section>
 
     </main>
