@@ -6,7 +6,7 @@
         <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-            <ul class="navbar-nav fs-4 menu3 d-flex flex-row">
+            <ul class="navbar-nav fs-4 menu3 d-flex">
                 <li><a class="nav-link mx-4" href="ueberuns.php">Über Uns</a></li>
                 <li><a class="nav-link mx-4" href="marktkalender.php">Marktkalender</a></li>
                 <li><a class="nav-link mx-4" href="produkte.php">Produkte</a></li>
