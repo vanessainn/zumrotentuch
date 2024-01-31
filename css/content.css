@@ -10,6 +10,11 @@ button {
     padding: .5rem 1.5rem;
 }
 
+button:hover {
+    background-color: var(--secondary);
+    color: var(--black);
+}
+
 /** 
 * Icon
 */
@@ -17,6 +22,20 @@ button {
 .icon {
     color: var(--white);
     min-width: 20px;
+}
+
+/**
+* Dialog
+*/
+
+dialog {
+    background-color: var(--white);
+    color: var(--black);
+    max-width: 550px;
+}
+
+.close_tirol {
+    cursor: pointer;
 }
 
 /**

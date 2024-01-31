@@ -10,3 +10,10 @@ window.onscroll = function () {
     }
 };
 
+document.querySelector('#tirol').addEventListener('click', () => {
+    document.querySelector('#dialog_tirol').showModal();    
+})
+
+document.querySelector('.close_tirol').addEventListener('click', () => {
+    document.querySelector('#dialog_tirol').close();    
+})

@@ -11,8 +11,10 @@
     
     <main>
         <section id="kartedetail" class ="mb-5 px-1">
-          <?php include 'map.php'; ?>
+            <?php include 'map.php'; ?>
+            <?php include 'dialog.php'; ?>
         </section>
+
         <section id="kalender">
             <div class="container">
                 <div class="row">
@@ -81,7 +83,7 @@
                                 <p>Purgstall/NÖ</p>
                             </div>
                         </div>
-                        <h5>MIttelaltespektakel zu Rattenberg</h5>
+                        <h5>Mittelaltespektakel zu Rattenberg</h5>
                         <div class="d-flex infos">
                             <div class="col-md-7">
                                 <p>26. April 2024 - 28. April 2024</p>
@@ -159,7 +161,7 @@
                                 <p>30. Mai 2024 - 2. Juni 2024</p>
                             </div>
                             <div class="col-md-5 text-end">
-                                <p>Ortenbug/DE</p>
+                                <p>Ortenburg/DE</p>
                             </div>
                         </div>
                     </div>

@@ -15,7 +15,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h1>Unsere Produkte</h1>
-                        <img src="images/produkte.jpg" alt="Produkte" class="img-fluid">
+                        <img src="images/produkte.jpg" alt="Produkte" class="img-fluid mb-4">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, obcaecati quod asperiores earum error iusto modi placeat alias aliquam, corporis minima ut! Cupiditate obcaecati eos voluptate, modi deleniti possimus cumque sed debitis praesentium explicabo blanditiis. Nobis doloribus necessitatibus fuga velit dolor repellat harum quam maxime iste. Autem unde magnam voluptatum in expedita, temporibus mollitia ea nemo, cum aliquam officiis a quibusdam nulla ab nisi, tenetur reiciendis totam saepe doloribus? Cum itaque a placeat quisquam aspernatur ab hic quod corrupti reprehenderit.</p>
                         <a href="/images/waschanleitung.pdf" download>Waschanleitung zum downloaden</a>
                     </div>

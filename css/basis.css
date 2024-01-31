@@ -11,6 +11,7 @@ wird in style.css per @import eingebunden
 
 :root {
   --primary: #395144;
+  --secondary: #bfb39e;
   --white: #FCFCFC;
   --black: #000000;
 }

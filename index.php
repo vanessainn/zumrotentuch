@@ -65,10 +65,14 @@
                     <div class="col-md-6 d-flex">
                     <i class="me-2"><img src="images/symbol.png" alt="Symbol" width="18px"></i></i>
                         <p>25. März 2024 - 26. März 2024 in Gloggnitz</p>
-                    </div>   
+                    </div>  
                 </div>
-                <div class="text-center"><button>sieh dir alle Termine an</button></div>
             </div>
+        </section>
+        <section id="kartedetail" class ="mb-5 px-1">
+            <?php include 'map.php'; ?>
+            <?php include 'dialog.php'; ?>
+            <div class="text-center mt-3"><button>sieh dir alle Termine an</button></div>
         </section>
 
     </main>
