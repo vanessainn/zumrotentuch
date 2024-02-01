@@ -51,7 +51,7 @@
                         <div class="timeline"><img class="schritte" src="images/one.png" alt="Schritt Eins"></div>
                     </div>
                     <div class="col-md-5 d-flex align-items-center">
-                        <div class="my-5">
+                        <div class="mt-5">
                             <h3>Entwurf und Mustererstellung</h3>
                             <p>Entwürfe werden skizziert und Muster angefertigt. Dabei werden die Proportionen, Schnitte und Details der Kleidungsstücke festgelegt. Oft werden historische Schnittmuster als Ausgangspunkt verwendet und an moderne Passformen angepasst.</p>
                         </div>
@@ -103,11 +103,16 @@
                         <div class="timeline"><img class="schritte_neu" src="images/five.png" alt="Schritt Drei"></div>
                     </div>
                     <div class="col-md-5 d-flex align-items-center">
-                        <div class="my-5">
+                        <div class="mt-5">
                             <h3>Anprobe und Abschluss</h3>
                             <p>Nach Fertigstellung des Kleidungsstücks wird eine Anprobe durchgeführt, um sicherzustellen, dass es richtig sitzt und alle Details korrekt sind. Eventuelle letzte Anpassungen werden vorgenommen, bevor das Kleidungsstück fertiggestellt und für den Kunden bereit ist.</p>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="text-center mt-4 mb-2"><button class="btn_normal"><a href="produkte.php">entdecke unsere Produkte</a></button></div>
                     <div class="col-md-12 mt-4">
                         <p>Diese Schritte erfordern Fachkenntnisse, handwerkliches Geschick und Liebe zum Detail, um hochwertige Mittelalterkleidung herzustellen, die den Charme und die Ästhetik vergangener Epochen einfängt.</p>
                     </div>
