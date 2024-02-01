@@ -17,8 +17,8 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h1>Zum Roten Tuch</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, quos quisquam. Quasi, consequatur dolorem hic nesciunt exercitationem ea autem quisquam ex, facere eligendi similique odit, dignissimos esse dolore est quas architecto? Pariatur distinctio at quisquam rerum perferendis, iusto molestiae ut quidem quaerat sapiente dolorum excepturi, recusandae consequuntur nulla error sed tempore accusamus, quod molestias unde voluptatum modi porro amet repellendus. Incidunt odit dignissimos, at illo quod expedita sed cum repellat voluptatum, soluta voluptates hic obcaecati asperiores veniam id accusantium aliquam maiores nisi excepturi. Eos, incidunt ipsa nemo neque sed, est adipisci dignissimos libero nobis, optio minus assumenda minima amet molestiae!</p>
-                        <div class="text-center"><button class="btn_normal">erfahre mehr über uns</button></div>
+                        <p>Willkommen bei "Zum Roten Tuch - die individuelle Schneiderei"! Tauchen Sie ein in die faszinierende Welt des Mittelalters und entdecken Sie unsere handgefertigten Kleidungsstücke, die von einer vergangenen Ära inspiriert sind. Besuchen Sie uns auf Mittelaltermärkten, wo wir unsere Kollektion präsentieren und Sie in eine Welt voller Geschichte, Tradition und Handwerkskunst entführen. Lassen Sie sich von unseren einzigartigen Kreationen verzaubern und erleben Sie das Mittelalter in all seiner Pracht und Schönheit!</p>
+                        <div class="text-center"><button class="btn_normal"><a href="ueberuns.php">erfahre mehr über uns</a></button></div>
                     </div>
                 </div>
             </div>
@@ -28,22 +28,22 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 px-0">
-                        <img src="images/Atelier.jpg" alt="Atelier" class="img-fluid">
+                        <img src="images/gallerie1.jpg" alt="Atelier" class="img-fluid">
                     </div>
                     <div class="col-md-4 px-0">
-                        <img src="images/Stoffe.jpg" alt="Stoffe" class="img-fluid">
+                        <img src="images/gallerie2.jpg" alt="Stoffe" class="img-fluid">
                     </div>
                     <div class="col-md-4 px-0">
-                        <img src="images/Atelier.jpg" alt="Atelier" class="img-fluid">
+                        <img src="images/gallerie3.jpg" alt="Atelier" class="img-fluid">
                     </div>
                     <div class="col-md-4 px-0">
-                        <img src="images/Stoffe.jpg" alt="Stoffe" class="img-fluid">
+                        <img src="images/gallerie4.jpg" alt="Stoffe" class="img-fluid">
                     </div>
                     <div class="col-md-4 px-0">
-                        <img src="images/Atelier.jpg" alt="Atelier" class="img-fluid">
+                        <img src="images/gallerie5.jpg" alt="Atelier" class="img-fluid">
                     </div>
                     <div class="col-md-4 px-0">
-                        <img src="images/Stoffe.jpg" alt="Stoffe" class="img-fluid">
+                        <img src="images/gallerie6.jpg" alt="Stoffe" class="img-fluid">
                     </div>
                     <div class="col-md-12 mt-2">
                         <p>einige Eindrücke unserer Mittelaltermärkte</p>
@@ -72,7 +72,7 @@
         <section id="kartedetail" class ="mb-5 px-1">
             <?php include 'map.php'; ?>
             <?php include 'dialog.php'; ?>
-            <div class="text-center mt-3"><button class="btn_normal">sieh dir alle Termine an</button></div>
+            <div class="text-center mt-3"><button class="btn_normal"><a href="marktkalender.php">sieh dir alle Termine an</a></button></div>
         </section>
 
     </main>
