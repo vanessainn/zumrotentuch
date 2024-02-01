@@ -13,6 +13,7 @@
         <section id="kartedetail" class ="mb-5 px-1">
             <?php include 'map.php'; ?>
             <?php include 'dialog.php'; ?>
+            <?php include 'map_mobile.php'; ?>
         </section>
 
         <section id="kalender">
