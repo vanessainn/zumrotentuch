@@ -11,8 +11,8 @@
             </div>
             <div class="col-md-4">
                 <ul class="list-unstyled d-flex justify-content-end gap-4">
-                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com/zumrotentuch/?locale=de_DE"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.instagram.com/rotes.tuch/"><i class="fab fa-instagram"></i></a></li>
                 </ul>
             </div>
         </div>
