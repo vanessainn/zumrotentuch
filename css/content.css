@@ -188,9 +188,8 @@ background-color: var(--secondary);
 }
 
 .btn-form:hover {
-    background-color: var(--primary);
+    background-color: var(--black);
     color: var(--white);
-    border: 1px solid var(--primary);
 }
 
 .form-control {
