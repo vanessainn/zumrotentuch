@@ -2,7 +2,7 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <title>Zum Roten Tuch</title>
+    <title>Kontakt - Zum Roten Tuch</title>
     <?php include 'head.php'; ?>
 </head>
 <body>

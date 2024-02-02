@@ -52,3 +52,16 @@ footer li:hover::after {
   height: 1px;
   background-color: var(--white);
 }
+
+@media screen and (max-width: 767px) {
+
+  .footer_mobile {
+    flex-direction: column;
+  }
+
+  .socials_mobile {
+    display: flex;
+    justify-content: end;
+  }
+
+}
