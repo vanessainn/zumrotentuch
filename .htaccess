@@ -1,0 +1,7 @@
+ErrorDocument 400 /zumrotentuch/error.php?code=400
+ErrorDocument 401 /zumrotentuch/error.php?code=401
+ErrorDocument 404 /zumrotentuch/error.php?code=404
+ErrorDocument 405 /zumrotentuch/error.php?code=405
+ErrorDocument 408 /zumrotentuch/error.php?code=408
+ErrorDocument 502 /zumrotentuch/error.php?code=502
+ErrorDocument 504 /zumrotentuch/error.php?code=504
