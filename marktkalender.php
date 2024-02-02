@@ -19,6 +19,9 @@
         <section id="kalender">
             <div class="container">
                 <div class="row">
+                    <div class="col-md-12 mb-4">
+                        <p>Auf den Märkten wird Zum roten Tuch ausschließlich von unserer Familie präsentiert. Auf diese Weise möchten wir sicherstellen, dass wir unsere Kunden vor Ort persönlich beraten und sie in unsere Welt einführen können. Wir stehen Ihnen mit Fachwissen, Leidenschaft und Unterstützung zur Verfügung. Denn wo Zum roten Tuch draufsteht, steckt auch unsere ganze Hingabe und Qualität drin!</p>
+                    </div>
                     <div class="col-md-12">
                         <h1>Marktkalender</h1>
                     </div>
